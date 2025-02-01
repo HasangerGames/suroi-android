@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Suroi" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FF7500</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#2b2c31</item>
+        <item name="colorSecondaryVariant">#3d3e48</item>
+        <!-- Status bar color. -->
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:windowBackground">#00000000</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>
