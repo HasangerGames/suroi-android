@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
                 "document.getElementById('weapon-clip-ammo-count').click();",null)
         }
     }
-    fun isOnline(context: Context): Boolean {
+    private fun isOnline(context: Context): Boolean {
         val connectivityManager =
             context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
         val capabilities =
