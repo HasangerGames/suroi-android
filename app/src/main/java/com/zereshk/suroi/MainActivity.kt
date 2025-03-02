@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                 view: WebView,
                 request: WebResourceRequest
             ): Boolean {
-                if (!request.url.toString().startsWith("https://suroi.io/")) {
+                if (!request.url.toString().startsWith("https://suroi.io")) {
                     view.context.startActivity(Intent(Intent.ACTION_VIEW, request.url))
                     return true
                 }
